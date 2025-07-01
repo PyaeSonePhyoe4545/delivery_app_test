@@ -1,0 +1,9 @@
+@echo off
+echo Starting Node.js server...
+echo Installing dependencies first...
+npm install
+
+echo Starting server on port 3000...
+node server.js
+
+pause
